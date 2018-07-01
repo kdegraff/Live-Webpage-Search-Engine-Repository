@@ -1,0 +1,116 @@
+.h1{ 
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: rgb(148, 158, 161) 1px 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-content: center;
+    font-weight: 300;
+    text-shadow: midnightblue;
+}
+
+#nav{
+    float:center;
+    position: fixed;
+    align-content: center;
+    align:top;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+    font-size: 25px;
+    height:40px;
+     width:1440px;
+     color:(114, 111, 255);
+}
+
+.hamburger{
+    float: left;
+}
+
+.message{
+    float:right;
+}
+
+.concierge{
+    float:right;
+    object-position: right top;
+    align-content: right;
+    color:rgb(114, 111, 255);
+    text-align: center;
+    font-size: 12px;
+    font-style: oblique;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin: 15px;
+}
+.concierge:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+section{
+    color:rgb(114, 111, 255);
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-content: center;
+    font-weight: lighter;
+}
+
+body {
+    background-color:rgb(128, 218, 240);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-image: url(http://www.pngmart.com/files/1/Clouds-PNG-Pic.png);
+
+}
+
+#searchbar{ 
+    text-align:50% 50%;
+    font-size: 16px;
+    color: rgb(114, 111, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    width:50%;
+    height: 45px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    position: center;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .searchicon{
+      float:right;
+  }
+
+  .article{ 
+    color: rgb(128, 127, 145);
+    text-align: center;
+    font-size: 11px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-content: center;
+    width:40%;
+    height: 35px;
+    font-weight: lighter;
+    text-shadow: midnightblue;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.clearfix::after{
+    content: “”;
+    display: block;
+    clear: both;
+   }
+
+footer{
+    text-align: center;
+       font-size: 11px;
+       color:rgb(114, 111, 255)
+   }
+.cloud-wrap {
+    text-align: center;
+}
